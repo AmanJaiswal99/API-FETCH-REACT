@@ -1,0 +1,47 @@
+.recipe{
+ display: flex;
+
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+.link{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+.price{
+    font-size: 1.5rem;
+}
+.card{
+    display: flex;
+    width: 300px;
+    height: 400px;
+    border: 1px solid grey;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:20px;
+    background-color: rgb(201, 202, 113);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.name{
+    font-size: 1.5rem;
+}
+.img{
+    width: 150px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition:  200ms ease-in-out;
+    
+}
+
+

@@ -1,0 +1,37 @@
+.container{
+    border: 1px solid gray;
+   display: flex;
+    align-self: center;
+    background: rgb(160, 155, 189);
+    color: white;
+}
+
+.dropdown{
+    padding: 2px;
+    font-size: medium;
+}
+
+.paym{
+    display: flex;
+}
+
+.payment{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.item{
+    border-right: 1px solid gray;
+    padding: 20px;
+}
+
+.pay{
+    padding: 20px;
+}
+
+.payment_heading{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}

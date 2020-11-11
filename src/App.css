@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  
+}
+
+body{
+  background-color: rgb(255, 252, 251);
+
+}
+
+.heading{
+  text-align: center;
+  font-family: cursive;
+  font-weight: 600;
+  font-size: 2rem;
+}
